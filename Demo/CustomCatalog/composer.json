@@ -1,0 +1,21 @@
+{
+    "name": "demoone/customcatalog",
+    "description": "Custom Module for Custom Catalog Attribute Management",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "demo@gmail.com",
+            "name": "Demo"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Demo\\CustomCatalog\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
